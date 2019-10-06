@@ -19,7 +19,6 @@ TCP和UDP数据包的格式：
 
 > UDP Datagram
 
-|UDP DataGram |
 |:----:|:----:|
 |ByteBuf|remote address|
 
