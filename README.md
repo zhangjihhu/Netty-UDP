@@ -19,8 +19,8 @@ TCP和UDP数据包的格式：
 
 > UDP Datagram
 
-|:----:|:----:|
 |ByteBuf|remote address|
+|:----:|:----:|
 
 编码：是将各种类型的Packet编码（跟TCP相同），然后将其写入到ByteBuf
 解码：从Datagram中取出content(ByteBuf)，然后解码过程和TCP解码过程相同
