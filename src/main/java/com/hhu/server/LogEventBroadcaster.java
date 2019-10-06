@@ -33,7 +33,7 @@ public class LogEventBroadcaster {
                         ChannelPipeline pipeline = channel.pipeline();
                         pipeline.addLast(new PacketCodecHandler(address));
                     }
-                }).localAddress(new InetSocketAddress(8888));
+                });
         this.file = file;
     }
 
